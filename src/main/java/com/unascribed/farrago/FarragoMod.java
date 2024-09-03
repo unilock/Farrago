@@ -125,7 +125,7 @@ import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 
-@Mod(name="Farrago",modid="farrago",dependencies="required-after:KitchenSink;after:GlassPane",version="@VERSION@",acceptedMinecraftVersions="@MCVERSION@")
+@Mod(name="Farrago",modid="farrago",dependencies="required-after:KitchenSink;after:GlassPane",version=Tags.VERSION,acceptedMinecraftVersions="[1.7.10]")
 public class FarragoMod {
 	public static final Logger log = LogManager.getLogger("Farrago");
 	@SidedProxy(clientSide="com.unascribed.farrago.proxy.ClientProxy", serverSide="com.unascribed.farrago.proxy.ServerProxy")

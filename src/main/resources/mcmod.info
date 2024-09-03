@@ -1,16 +1,21 @@
-[
 {
-  "modid": "farrago",
-  "name": "Farrago",
-  "description": "farrago, n. 1. A collection containing a confused variety of miscellaneous things. 2. A mod for Minecraft containing a collection of random ideas from Aesen and his friends.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "https://github.com/AesenV/Farrago",
-  "updateUrl": "",
-  "authorList": ["Aesen"],
-  "credits": "Falkreon for Xenotime texture; Aesen for code, art, and most ideas; the Mumble crowd for other ideas; Freesound for rifle sounds (see CREDITS.txt for details)",
-  "logoFile": "assets/farrago/textures/misc/logo.png",
-  "screenshots": [],
-  "dependencies": []
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "farrago, n. 1. A collection containing a confused variety of miscellaneous things. 2. A mod for Minecraft containing a collection of random ideas from Aesen and his friends.",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "https://github.com/AesenV/Farrago",
+		"updateUrl": "",
+		"authorList": ["Aesen"],
+		"credits": "Falkreon for Xenotime texture; Aesen for code, art, and most ideas; the Mumble crowd for other ideas; Freesound for rifle sounds (see CREDITS.txt for details)",
+		"logoFile": "assets/farrago/textures/misc/logo.png",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": false
+	}]
 }
-]
