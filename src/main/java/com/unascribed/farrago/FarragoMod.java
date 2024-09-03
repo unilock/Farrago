@@ -12,6 +12,7 @@ import java.util.Random;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -1120,7 +1121,7 @@ public class FarragoMod {
 	 * setDamage doesn't pass in an Entity, so I scan every player on the server...
 	 * Please submit an issue if there's a new (better) way to do it!
 	 */
-	public static void doBreakUtilityBelt(ItemStack belt, List<EntityPlayer> players) {
+	public static void doBreakUtilityBelt(ItemStack belt, List<EntityPlayerMP> players) {
 		if (!FarragoMod.config.getBoolean("utilityBelt.dropItemsOnBreak")) return;
 		if (belt.getItemDamage() == OreDictionary.WILDCARD_VALUE) return;
 		for (EntityPlayer p : players) {

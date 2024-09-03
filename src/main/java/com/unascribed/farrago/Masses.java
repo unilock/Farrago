@@ -274,7 +274,7 @@ public class Masses {
 				magic += i;
 			}
 		}
-		for (Map.Entry entry : (Collection<Map.Entry>)stack.getAttributeModifiers().entries()) {
+		for (Map.Entry<String, AttributeModifier> entry : stack.getAttributeModifiers().entries()) {
 			String attr = (String) entry.getKey();
 			AttributeModifier mod = (AttributeModifier)entry.getValue();
             double amt = mod.getAmount();
